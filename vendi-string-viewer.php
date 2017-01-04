@@ -12,20 +12,6 @@ define( 'VENDI_STRING_VIEWER_PLUGIN_URL',  plugin_dir_url( __FILE__ ) );
 
 require_once VENDI_STRING_VIEWER_PLUGIN_PATH . '/vendor/autoload.php';
 
-/*
-Usage:
-add_filter(
-            'vendi-string-view-items',
-            function( $items )
-            {
-                $items[ 'Sample Project' ] = 'my-slug-here';
-
-                return $items;
-            }
-        );
-
- */
-
 //Custom icon - Requires Vendi WP Admin Cleanup plugin
 add_filter(
             'vendi-wp-admin-cleanup-root-svg',
